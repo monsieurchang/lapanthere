@@ -889,8 +889,8 @@ h4 {
     }
 
     .bloc {
-        padding-left: constant(safe-area-inset-left);
-        padding-right: constant(safe-area-inset-right);
+        padding-left: constant(safe-area-inset-left, 20px);
+        padding-right: constant(safe-area-inset-right, 20px);
     }
 
     .bloc-group,
