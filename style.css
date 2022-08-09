@@ -889,8 +889,10 @@ h4 {
     }
 
     .bloc {
-        padding: env(safe-area-inset-left, 20px);
-        padding: env(safe-area-inset-right, 20px);
+        /* padding-left: env(safe-area-inset-left);
+        padding-right: env(safe-area-inset-right); */
+        padding-left: 20px;
+        padding-right: 20px;
     }
 
     .bloc-group,
@@ -902,8 +904,10 @@ h4 {
     .bloc-fill-screen .fill-bloc-top-edge,
     .bloc-fill-screen .fill-bloc-bottom-edge {
         padding: 0 20px;
-        padding: env(safe-area-inset-left, 20px);
-        padding: env(safe-area-inset-right, 20px);
+        /* padding-left: env(safe-area-inset-left);
+        padding-right: env(safe-area-inset-right); */
+        padding-left: 20px;
+        padding-right: 20px;
     }
 }
 
