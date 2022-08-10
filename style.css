@@ -13,10 +13,6 @@ button {
     outline: none !important;
 }
 
-.orange_button:hover {
-    color: rgba(255, 255, 255, .9);
-}
-
 .modified_p {
     font-size: 1.5em;
 }
