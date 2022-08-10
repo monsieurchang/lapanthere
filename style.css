@@ -14,7 +14,7 @@ button {
 }
 
 .orange_button:hover {
-    color: orange;
+    color: rgba(255, 255, 255, .9);
 }
 
 .modified_p {
