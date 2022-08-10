@@ -20,6 +20,7 @@ button {
 a:hover {
     text-decoration: none;
     cursor: pointer;
+    color: red;
 }
 
 #page-loading-blocs-notifaction {
