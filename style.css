@@ -17,10 +17,6 @@ button {
     font-size: 1.5em;
 }
 
-.boutonmenu:hover {
-    color: orange;
-}
-
 a:hover {
     text-decoration: none;
     cursor: pointer;
@@ -839,6 +835,10 @@ h4 {
 
 .bg-presentation {
     background-image: url("img/image-de-presentation.webp");
+}
+
+.boutonmenu:hover {
+    color: red;
 }
 
 @media (max-width: 1024px) {
