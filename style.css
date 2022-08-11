@@ -1092,12 +1092,12 @@ h4 {
         text-align: center;
     }
 
-    .caca {
+    .zone_partenaires {
         margin: 0;
         padding: 0;
     }
 
-    .pipi {
+    .partenaires {
         margin: 0;
         padding: 0;
         flex-direction: column;
@@ -1105,14 +1105,14 @@ h4 {
     }
 }
 
-.caca {
+.zone_partenaires {
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 100%;
 }
 
-.pipi {
+.partenaires {
     display: flex;
     justify-content: center;
     justify-content: space-around;
