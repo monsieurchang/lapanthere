@@ -13,6 +13,11 @@ button {
     outline: none !important;
 }
 
+a {
+    height: 48px;
+    width: 48px;
+}
+
 .modified_p {
     font-size: 1.5em;
 }
@@ -1128,9 +1133,4 @@ h4 {
     justify-content: center;
     justify-content: space-around;
     width: 90%;
-}
-
-.partner_zone {
-    height: 48px;
-    width: 48PX;
 }
