@@ -13,11 +13,6 @@ button {
     outline: none !important;
 }
 
-a {
-    height: 48px;
-    width: 48px;
-}
-
 .modified_p {
     font-size: 1.5em;
 }
