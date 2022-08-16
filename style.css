@@ -1129,3 +1129,8 @@ h4 {
     justify-content: space-around;
     width: 90%;
 }
+
+.partner_zone {
+    height: 48px;
+    width: 48PX;
+}
