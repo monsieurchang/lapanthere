@@ -13,10 +13,6 @@ button {
     outline: none !important;
 }
 
-.modified_p {
-    font-size: 1.5em;
-}
-
 a:hover {
     text-decoration: none;
     cursor: pointer;
@@ -95,7 +91,7 @@ a:hover {
 }
 
 .texture-paper::before {
-    background: url("img/texture-paper.webp");
+    background: url("img/texture-paper.png");
     background-size: 280px 280px;
 }
 
@@ -137,8 +133,7 @@ a:hover {
 .d-bloc h5 a,
 .d-bloc h6 a,
 .d-bloc p a {
-    /* color: rgba(255, 255, 255, .6); */
-    color: black;
+    color: rgba(255, 255, 255, .6);
 }
 
 .d-bloc .a-btn:hover,
@@ -538,7 +533,7 @@ button {
 }
 
 .showScrollTop {
-    font-size: 16px;
+    font-size: 14px;
     opacity: 1;
 }
 
@@ -689,7 +684,7 @@ a {
 }
 
 p {
-    font-size: 16px;
+    font-size: 11px;
 }
 
 .tight-width-whitespace {
@@ -751,10 +746,6 @@ h4 {
     color: #FFFFFF !important;
 }
 
-.black {
-    color: #000000 !important;
-}
-
 .portfolio-thumb {
     margin-bottom: 24px;
 }
@@ -791,17 +782,12 @@ h4 {
 }
 
 .tc-white {
-    /* color: #F3976C !important; */
-    color: white !important;
-}
-
-.tc-black {
-    color: black !important;
+    color: #F3976C !important;
 }
 
 .btn-atomic-tangerine {
     background: #F3976C;
-    color: #000000 !important;
+    color: #FFFFFF !important;
 }
 
 .btn-atomic-tangerine:hover {
@@ -839,11 +825,11 @@ h4 {
 }
 
 .bg-banniere {
-    background-image: url("img/agence-la-panthere.webp");
+    background-image: url("img/agence-la-panthere.jpg");
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.webp");
+    background-image: url("img/image-de-presentation.bmp");
 }
 
 @media (max-width: 1024px) {
@@ -871,13 +857,13 @@ h4 {
     }
 }
 
-@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
     .b-parallax {
         background-attachment: scroll;
     }
 }
 
-@media only screen and (min-width: 1024px) and (max-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
     .b-parallax {
         background-attachment: scroll;
     }
@@ -899,10 +885,8 @@ h4 {
     }
 
     .bloc {
-        /* padding-left: env(safe-area-inset-left);
-        padding-right: env(safe-area-inset-right); */
-        padding-left: 20px;
-        padding-right: 20px;
+        padding-left: constant(safe-area-inset-left);
+        padding-right: constant(safe-area-inset-right);
     }
 
     .bloc-group,
@@ -914,10 +898,8 @@ h4 {
     .bloc-fill-screen .fill-bloc-top-edge,
     .bloc-fill-screen .fill-bloc-bottom-edge {
         padding: 0 20px;
-        /* padding-left: env(safe-area-inset-left);
-        padding-right: env(safe-area-inset-right); */
-        padding-left: 20px;
-        padding-right: 20px;
+        padding-left: constant(safe-area-inset-left);
+        padding-right: constant(safe-area-inset-right);
     }
 }
 
@@ -1101,12 +1083,12 @@ h4 {
         text-align: center;
     }
 
-    .zone_partenaires {
+    .caca {
         margin: 0;
         padding: 0;
     }
 
-    .partenaires {
+    .pipi {
         margin: 0;
         padding: 0;
         flex-direction: column;
@@ -1114,25 +1096,27 @@ h4 {
     }
 
     .img-responsive {
+        border: solid 3px red;
         width: 320px;
         height: 320px;
     }
 
     .col-sm-6 {
+        border: solid 3px blue;
         display: flex;
         flex-direction: column;
         align-items: center;
     }
 }
 
-.zone_partenaires {
+.caca {
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 100%;
 }
 
-.partenaires {
+.pipi {
     display: flex;
     justify-content: center;
     justify-content: space-around;
