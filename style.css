@@ -922,10 +922,6 @@ h4 {
 }
 
 @media (max-width: 767px) {
-    .bg-banniere {
-        background-image: url("img/agence-la-panthere-small.webp");
-    }
-
     .page-container {
         overflow-x: hidden;
         position: relative;
@@ -1098,17 +1094,9 @@ h4 {
         padding-left: 0;
         padding-right: 0;
     }
-
-    .bg-banniere {
-        background-image: url("img/agence-la-panthere-small.webp");
-    }
 }
 
 @media (max-width: 767px) {
-    .bg-banniere {
-        background-image: url("img/agence-la-panthere-small.webp");
-    }
-
     .bloc-mob-center-text {
         text-align: center;
     }
